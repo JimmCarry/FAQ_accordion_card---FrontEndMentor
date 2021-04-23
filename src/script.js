@@ -1,12 +1,15 @@
-document.querySelectorAll('dt').forEach((dt) => dt.addEventListener("click", () => {
-    console.log(document.querySelectorAll('dt'));
-    if(dt.nextElementSibling.classList.contains('active')) {
-        dt.nextElementSibling.classList.toggle('active');
-        console.log(dt.nextElementSibling.classList);
+//console.log(document.querySelectorAll('.accordion li'));
+
+document.querySelectorAll('.accordion li').forEach((li) => li.addEventListener("click", () => {
+    //console.log(document.querySelectorAll('li'));
+    if(li.classList.contains('active')) {
+        
+        li.classList.toggle('active');
+        //console.log(li.classList);
     } else {
-        document.querySelectorAll('dt').forEach((dt) => dt.nextElementSibling.classList.remove('active'));
-        dt.nextElementSibling.classList.add('active');
-        console.log('pytel');
+        document.querySelectorAll('.accordion li').forEach((li) => li.classList.remove('active'));
+        li.classList.add('active');
+    //    console.log('pytel');
     }
         
  

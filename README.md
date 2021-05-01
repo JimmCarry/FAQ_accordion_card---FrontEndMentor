@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the FAQ accordion card solution coding challenge](./design/005 - FAQ accordion card.png)
+![Design preview for the FAQ accordion card solution coding challenge](./design/005.png)
 
 ### Links
 

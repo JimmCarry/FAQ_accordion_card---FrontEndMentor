@@ -29,8 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://codesandbox.io/s/faq-accordion-card-forked-0jefr?resolutionWidth=1400&resolutionHeight=800
 
 ### Built with
 
